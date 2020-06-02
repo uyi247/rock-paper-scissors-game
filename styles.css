@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+header {
+  background: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1 {
+  color: cornsilk;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.scorecheck {
+  border: 3px solid white;
+  color: wheat;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.info {
+  background: rgb(red, green, blue);
+  font-size: 14px;
+}
+
+#playerfile {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  font-size: xx-large;
+  top: 50px;
+  left: 340px;
+}
+
+#computerfile {
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  top: 40px;
+  font-size: xx-large;
+  right: -350px;
+}
+
+.output {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  text-align: center;
+}
+
+.option {
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+}
+.option:hover {
+  cursor: pointer;
+}
